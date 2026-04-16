@@ -77,28 +77,24 @@ p {
 }
 
 .contact {
+    background: black url("../assets/image/fundo-contact.jpg") center center / cover no-repeat;
     display: flex;
     flex-direction: column;
-    height: 1006px;
-    justify-content: center;
-    align-items: center;
+    height: 750px;
+    padding: 112px 80px;
     gap: 80px;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 .text-contact1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 16px;
-
 }
 
 .text-contact2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 24px;
 
 }
@@ -114,13 +110,10 @@ h2 {
 
 
 textarea {
-    width: 100%;
+    width: 560px;
+    height: 180px;
     border: 1px solid #000;
-}
-
-textarea {
-    height: 150px;
-
+    background-color: rgba(255, 255, 255, 0.596);
 }
 
 input[type="checkbox"] {
@@ -132,12 +125,19 @@ input[type="checkbox"] {
 
 .checkbox-group {
     display: flex;
-    align-items: center;
+    
     gap: 8px;
     font-size: 16px;
 }
 
 .form-group {
-    margin-bottom: 15px;
     max-width: 500px;
+    
+}
+
+.caixa {
+    background-color: rgba(255, 255, 255, 0.596);
+    width: 560px;
+    height: 48px;
+    border: 1px solid black;
 }
